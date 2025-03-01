@@ -9,7 +9,7 @@ from slowapi import Limiter
 from slowapi.util import get_remote_address
 
 # Load OpenAI API key
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("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")
 
 # FastAPI app
 app = FastAPI()
